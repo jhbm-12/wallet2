@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Logo from './assets/Logo.svg';
 import LogoGali from './assets/logo-gali.png';
+import Ola from './components/ola';
+
 
 function App() {
   const [count, setcount] = useState(0)
@@ -17,6 +19,7 @@ function App() {
          <img src={LogoGali} width={260}/>
         </header>
        </div>
+       <Ola/>
       </div>
      
   
