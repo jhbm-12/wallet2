@@ -22,7 +22,7 @@ export default function Balance({ balance, totalInvested, totalAssets, portfolio
 
         {/* Coluna 3 - Gráfico */}
         <div className="flex justify-center md:justify-end">
-        
+        <p>{totalAssets} Investimentos </p>
         </div>
       </div>
     </div>
